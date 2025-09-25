@@ -5,7 +5,7 @@
 - Explore server and client interactions.
 - Use the telnet command to test TCP services.
 
----
+
 
 ## Theory
 - **Servers** are programs that provide specific information or services upon request.
@@ -16,7 +16,7 @@
   - `netstat` → shows active network connections and listening servers.
   - `telnet` → used to test TCP services (default port 23, but you can specify others like 80 for HTTP or 22 for SSH).
 
----
+
 
 ## Steps & Commands
 
@@ -133,4 +133,5 @@ Recognized why SSH is preferred over Telnet for secure remote access.
 Summary
 
 In this lab, we used the Linux command line to identify and analyze running servers. Using ps and netstat, we viewed processes and active connections. We tested services with telnet on different ports (HTTP and SSH), observing how each responded to input. This demonstrated the differences in protocol behavior and highlighted why Telnet is insecure but useful for quick TCP service testing.
-[click here to downolad file with  lab images ](
+
+[click here to downolad file with  lab images ](https://github.com/NIMRAA3/Linux-Servers-Lab-Report/blob/main/Lab%20%20server%20report.docx)
